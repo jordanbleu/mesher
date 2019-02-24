@@ -37,6 +37,13 @@ deleted along with any connections to it.
 **Move:**
 Right click to select a node then click and drag to move it.
 
+**Save:**
+Left click to save your work in progress.  Right click to export the code.
+
+**Load**
+Pressing ctrl+alt+space with this option highlighted will load a .navmesh file and overwrite your current changes.
+
+
 
 
 
