@@ -1,0 +1,11 @@
+How to use:
+
+This is a weird workflow, but:
+
+1. Right click on "Rooms" and go to "add existing"
+2. Add your existing room that you have setup.  This will import all the objects into this application.
+3. Feel free to just delete the objects, we only care about the room layout.
+4. In the room we just created, add the script InitializeMesher() to the creation code
+5. Run the app!
+
+
