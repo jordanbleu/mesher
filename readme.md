@@ -4,6 +4,10 @@ Mesher
 *A god awful utility I wrote to write my code for me*
 ***
 
+How to start
+----
+You can either load up the Game Maker Studio 2 project or extract the "Mesher.zip" somewhere and run the exe
+
 How to use
 ----
 1. Copy your room's dimensions with obstacles and stuff into the mesher project
