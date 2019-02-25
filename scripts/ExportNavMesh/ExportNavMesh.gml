@@ -17,10 +17,10 @@ with (Node)
 {
 	var ref = "node" + friendlyName;
 	file_text_write_string(file, "with (" + ref + ") \n{ \n");	
-	file_text_write_string(file, "\tx0=" + string(x0) + ";\n");			
-	file_text_write_string(file, "\tx1=" + string(x1) + ";\n");			
-	file_text_write_string(file, "\ty0=" + string(y0) + ";\n");			
-	file_text_write_string(file, "\ty1=" + string(y1) + ";\n");			
+	file_text_write_string(file, "\tx0=" + string(x+x0) + ";\n");			
+	file_text_write_string(file, "\tx1=" + string(x+x1) + ";\n");			
+	file_text_write_string(file, "\ty0=" + string(y+y0) + ";\n");			
+	file_text_write_string(file, "\ty1=" + string(y+y1) + ";\n");			
 	file_text_write_string(file, "\tfriendlyName=\"" + friendlyName + "\";\n");			
 	file_text_write_string(file, "\tconnectedNodes = [\n");			
 	
