@@ -1,0 +1,1 @@
+enableAllConnections = !enableAllConnections;

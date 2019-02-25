@@ -1,3 +1,6 @@
+
+VerifyConnections();
+
 var filename = argument0;
 
 file_delete(filename);

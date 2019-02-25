@@ -4,6 +4,7 @@ with (Node)
 {
 	if (self.friendlyName == fName)
 	{
-		return string(id);
+		//return string(id);
+		return id;
 	}
 }

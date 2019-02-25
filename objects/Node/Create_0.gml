@@ -10,11 +10,6 @@ x1 = 64;
 y0 = -64;
 y1 = 64;
 
-if (!variable_instance_exists(id, "skipReNumber"))
-{
-	skipReNumber=false;
-}
-
 // if any node is under this one, destroy self
 with (Node)
 {
@@ -23,11 +18,6 @@ with (Node)
 		ShowErrorMessage("Cannot place nodes on other nodes");
 		instance_destroy();
 	}
-}
-
-if (!skipReNumber)
-{
-	//ReNumberNodes();
 }
 
 color = make_color_rgb(255,

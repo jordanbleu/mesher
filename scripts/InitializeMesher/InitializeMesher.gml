@@ -6,6 +6,7 @@ global.lightGrey = make_color_rgb(153,153,153);
 var w = display_get_gui_width();
 instance_create_depth(0,0,0,MesherUI);
 instance_create_depth(mouse_x, mouse_y, 0, mouse);
+instance_create_depth(0, 0, 0, Path);
 
 
 global.displayWidth = 640;

@@ -67,3 +67,5 @@ ini_close();
 ds_list_destroy(friendlyNameList);
 ds_map_destroy(friendlyNameConnectionMap);
 ds_map_destroy(friendlyNameMap);
+
+VerifyConnections();
