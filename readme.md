@@ -43,6 +43,9 @@ Left click to save your work in progress.  Right click to export the code.
 **Load**
 Pressing ctrl+alt+space with this option highlighted will load a .navmesh file and overwrite your current changes.
 
+**Test**
+Use this to actually test the pathing algorithm with your current navigation mesh.  All nodes should be connected to all other nodes for this to work properly.
+
 
 
 
