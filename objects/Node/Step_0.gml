@@ -1,8 +1,7 @@
 
 
 if (isSelected && MesherUI.menuItemIndex == 2)
-{
-	
+{	
 	if (mouse_x < x && mouse_y < y)
 	{
 		currentHandle = Handles.TopLeft;

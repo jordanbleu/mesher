@@ -1,18 +1,11 @@
 var fileName = argument0;
-
-// todo:  verify connections
+VerifyConnections();
 
 var file = file_text_open_write(fileName);
 
 // write out some meta data
-file_text_write_string(file, "************ MESHER OUTPUT ************\n");
-file_text_write_string(file, "v0.0.1\n");
-file_text_writeln(file);
-
-file_text_write_string(file, "** Paste this code into your room's create event **\n");
-file_text_write_string(file, "==================================================================\n");
 file_text_write_string(file, "#region Generate NavMesh\n");
-file_text_write_string(file, "// ** Code Generated Using Mesher **\n");
+file_text_write_string(file, "// ** Code Generated Using Mesher 0.0.0.1 **\n");
 file_text_write_string(file, "// Instantiate nodes and keep their reference for later\n");
 with (Node)
 {

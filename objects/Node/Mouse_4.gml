@@ -50,5 +50,26 @@ switch (index)
 			ShowErrorMessage("Select this node and click to delete");
 		}
 	break;
+	
+	case 7:
+		if (isSelected)
+		{
+			ShowErrorMessage("Cannot create path to / from the same node");
+		}
+		if (selectedNode == noone)
+		{
+			ShowErrorMessage("Use right click to select a starting node");
+		}
+		else
+		{
+			var myId = id;
+			with (Path)
+			{
+				requestedStartNode = selectedNode;
+				requestedEndNode = myId;
+				updatePath = true;
+			}
+		}		
+	break;
 
 }
