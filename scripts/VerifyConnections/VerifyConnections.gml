@@ -1,3 +1,4 @@
+// This is not a perfect way to verify node connections 
 
 var list = ds_list_create();
 var badList = ds_list_create();
